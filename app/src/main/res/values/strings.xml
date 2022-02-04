@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroMyography</string>
+    <string name="add_new_patient">Add New Patient</string>
+    <string name="search_patient">Search Patient</string>
+    <string name="edit_patient">Edit Patient</string>
+    <string name="how_to_use_andromyography">How to Use AndroMyography</string>
+    <string name="about_us">About Us</string>
+</resources>
