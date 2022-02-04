@@ -5,4 +5,7 @@
     <string name="edit_patient">Edit Patient</string>
     <string name="how_to_use_andromyography">How to Use AndroMyography</string>
     <string name="about_us">About Us</string>
+    <string name="welcome_to_andromyography">Welcome to AndroMyography</string>
+    <string name="start_the_test_and_check_your_muscles">Start the Test and Check Your Muscles</string>
+    <string name="design_by_abbas_mahdiyeh">Design by Abbas Mahdiyeh</string>
 </resources>
