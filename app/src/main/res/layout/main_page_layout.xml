@@ -31,7 +31,7 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:src="@drawable/add_patient_logo"
+            android:src="@drawable/add_new_patient_logo"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/imageview_style"
@@ -100,7 +100,7 @@
 
         <Button
             android:id="@+id/btn_editPatient"
-            android:text="@string/edit_patient"
+            android:text="@string/edit_patient_profile"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:background="@drawable/button_style"
