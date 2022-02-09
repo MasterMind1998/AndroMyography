@@ -50,15 +50,14 @@ class MainPage : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item != null)
-            when (item.itemId) {
+        when (item.itemId) {
 
-                R.id.menu_add -> startActivity(Intent(this, AddNewPatient::class.java))
-                R.id.menu_search -> startActivity(Intent(this, SearchPatient::class.java))
-                R.id.menu_edit -> startActivity(Intent(this, EditPatientProfile::class.java))
-                R.id.menu_howToUse -> startActivity(Intent(this, UserManual::class.java))
-                R.id.menu_aboutUs -> startActivity(Intent(this, AboutUs::class.java))
-            }
+            R.id.menu_add -> startActivity(Intent(this, AddNewPatient::class.java))
+            R.id.menu_search -> startActivity(Intent(this, SearchPatient::class.java))
+            R.id.menu_edit -> startActivity(Intent(this, EditPatientProfile::class.java))
+            R.id.menu_howToUse -> startActivity(Intent(this, UserManual::class.java))
+            R.id.menu_aboutUs -> startActivity(Intent(this, AboutUs::class.java))
+        }
         return true
     }
 }
