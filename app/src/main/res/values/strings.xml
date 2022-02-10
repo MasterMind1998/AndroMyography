@@ -26,6 +26,9 @@
     <string name="gender">Gender</string>
     <string name="back">Back</string>
     <string name="show_test_result">Show Test Result</string>
+    <string name="edit_patient_information">Edit patient Information</string>
+    <string name="apply_edit">Apply Edit</string>
+    <string name="apply">Apply</string>
     <string-array name="gender_spinner">
         <item>Choose the Gender...</item>
         <item>Male</item>
