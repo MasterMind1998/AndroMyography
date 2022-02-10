@@ -20,6 +20,12 @@
     <string name="please_enter_patient_id">Please Enter Patient ID</string>
     <string name="edit_patient_information_by_id">Edit Patient Information by ID</string>
     <string name="edit_patient">Edit Patient</string>
+    <string name="patient_search_result">Patient Search Result</string>
+    <string name="id">ID</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="back">Back</string>
+    <string name="show_test_result">Show Test Result</string>
     <string-array name="gender_spinner">
         <item>Choose the Gender...</item>
         <item>Male</item>

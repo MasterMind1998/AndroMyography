@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroMyography">
         <activity
+            android:name=".Patient.PatientSearchResult"
+            android:exported="false" />
+        <activity
             android:name=".ManualAndAbout.AboutUs"
             android:exported="false" />
         <activity
