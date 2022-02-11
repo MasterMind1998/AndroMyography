@@ -29,6 +29,9 @@
     <string name="edit_patient_information">Edit patient Information</string>
     <string name="apply_edit">Apply Edit</string>
     <string name="apply">Apply</string>
+    <string name="follow_us">Follow US</string>
+    <string name="about">About</string>
+    <string name="about_text">This is a about text for test</string>
     <string-array name="gender_spinner">
         <item>Choose the Gender...</item>
         <item>Male</item>
