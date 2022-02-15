@@ -32,6 +32,9 @@
     <string name="follow_us">Follow US</string>
     <string name="about">About</string>
     <string name="about_text">This is a about text for test</string>
+    <string name="turn_on_bluetooth">Turn ON Bluetooth</string>
+    <string name="turn_off_bluetooth">Turn OFF Bluetooth</string>
+    <string name="refresh_for_available_device">Refresh For Available Device</string>
     <string-array name="gender_spinner">
         <item>Choose the Gender...</item>
         <item>Male</item>

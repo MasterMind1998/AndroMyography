@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.andromyography">
+    package="com.example.andromyography" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
 
     <application
         android:name=".DataBaseModel.AppConfig"
@@ -9,7 +14,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroMyography">
+        android:theme="@style/Theme.AndroMyography" >
+        <activity
+            android:name=".BluetoothConfigurationAndEMGTest.ElectromyographyAnalysis"
+            android:exported="false" />
+        <activity
+            android:name=".BluetoothConfigurationAndEMGTest.SelectDeviceActivity"
+            android:exported="false" />
         <activity
             android:name=".Patient.EditPatientProfileForm"
             android:exported="false" />
@@ -37,7 +48,7 @@
         <activity
             android:name=".LandingActivity.SpalshScreen"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
