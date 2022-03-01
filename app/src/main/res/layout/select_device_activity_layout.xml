@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".BluetoothConfigurationAndEMGTest.SelectDeviceActivity">
+
+    <LinearLayout
+        android:id="@+id/bluetooth_linear"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/bluetooth_label"
+            android:src="@drawable/bluetooth_off"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="10dp"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp">
+
+            <Button
+                android:id="@+id/btn_turn_on_bluetooth"
+                android:text="@string/turn_on_bluetooth"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <Button
+                android:id="@+id/btn_turn_off_bluetooth"
+                android:text="@string/turn_off_bluetooth"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <Button
+                android:id="@+id/btn_refresh_bluetooth"
+                android:text="@string/refresh_for_available_device"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/listview_style"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/bluetooth_linear"
+        tools:ignore="MissingConstraints" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <ListView
+                android:id="@+id/select_device_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="NestedScrolling" />
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

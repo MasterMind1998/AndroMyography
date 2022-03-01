@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".Patient.PatientSearchResult">
+
+    <LinearLayout
+        android:id="@+id/lsr_logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:src="@drawable/patient_search_result"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lsr_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lsr_logo"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints" >
+
+        <TextView
+            android:text="@string/patient_search_result"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:background="@drawable/button_style"
+            android:layout_width="300dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lsr_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lsr_text"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:text="@string/id"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/text_view_style"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/id_result"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:background="@drawable/text_view_style"
+            android:paddingStart="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lsr_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lsr_id"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/text_view_style"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/name_result"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:background="@drawable/text_view_style"
+            android:paddingStart="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lsr_family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lsr_name"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:text="@string/family"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/text_view_style"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/family_result"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:background="@drawable/text_view_style"
+            android:paddingStart="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lsr_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lsr_family"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:text="@string/age"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/text_view_style"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/age_result"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:background="@drawable/text_view_style"
+            android:paddingStart="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lsr_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lsr_age"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:text="@string/phone"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/text_view_style"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/phone_result"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:background="@drawable/text_view_style"
+            android:paddingStart="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lsr_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lsr_phone"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:text="@string/gender"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/text_view_style"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/gender_result"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:background="@drawable/text_view_style"
+            android:paddingStart="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lsr_muscle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lsr_gender"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:text="@string/damaged_muscle"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/text_view_style"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/damaged_muscle_result"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:background="@drawable/text_view_style"
+            android:paddingStart="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginStart="12dp"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lsr_muscle"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/show_test_result"
+            android:text="@string/show_test_result"
+            android:textColor="@color/white"
+            android:background="@drawable/button_style"
+            android:layout_width="200dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/back_to_main"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:background="@drawable/button_style"
+            android:layout_width="100dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_add"
+        android:title="@string/add_new_patient"
+        />
+
+    <item
+        android:id="@+id/menu_edit"
+        android:title="@string/edit_patient_profile"
+        android:icon="@drawable/edit_patient_logo"/>
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/search_patient"
+        android:icon="@drawable/search_patient_logo"/>
+
+    <item
+        android:id="@+id/menu_howToUse"
+        android:title="@string/how_to_use_andromyography"
+        android:icon="@drawable/how_to_use_logo"/>
+
+    <item
+        android:id="@+id/menu_aboutUs"
+        android:title="@string/about_us"
+        android:icon="@drawable/about_us_logo"/>
+
+
+</menu>
