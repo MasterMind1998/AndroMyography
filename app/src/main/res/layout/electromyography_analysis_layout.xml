@@ -41,9 +41,11 @@
         android:id="@+id/click_linear"
         app:layout_constraintTop_toBottomOf="@id/chart_linear"
         android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
         android:gravity="center"
-        android:layout_height="60dp">
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
 
         <Button
             android:id="@+id/btn_startTest"
@@ -56,10 +58,10 @@
         <ImageView
             android:id="@+id/symbol_of_test"
             android:src="@drawable/disconnect_symbol"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:contentDescription="@string/todo" />
 
         <Button
@@ -75,26 +77,26 @@
     <LinearLayout
         android:layout_marginStart="22dp"
         android:layout_marginEnd="22dp"
-        android:background="@drawable/button_style"
+
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/click_linear"
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="40dp">
 
         <Button
             android:id="@+id/btn_stop_save_test"
             android:text="@string/stop_test_and_save"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:background="@drawable/text_view_style"
+            android:background="@drawable/button_style"
             android:layout_width="200dp"
-            android:layout_height="40dp"/>
+            android:layout_height="30dp"/>
 
         <ImageView
             android:src="@drawable/save_symbol"
             android:layout_marginStart="10dp"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:contentDescription="@string/todo" />
 
 

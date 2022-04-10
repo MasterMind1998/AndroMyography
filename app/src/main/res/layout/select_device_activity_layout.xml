@@ -71,18 +71,12 @@
         app:layout_constraintTop_toBottomOf="@id/bluetooth_linear"
         tools:ignore="MissingConstraints" >
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:ignore="UselessParent">
-
             <ListView
                 android:id="@+id/select_device_list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:ignore="NestedScrolling" />
 
-        </ScrollView>
     </LinearLayout>
 
 
