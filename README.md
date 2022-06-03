@@ -30,3 +30,6 @@ Project is created with:
 
 ## Project Guide
 Assemble your circuit according to the diagram below :
+<p align="center">
+  <img src="media/AndroMyographyFritzing.png.png" width="960px" height="570px"/>
+</p>
