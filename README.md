@@ -31,5 +31,5 @@ Project is created with:
 ## Project Guide
 Assemble your circuit according to the diagram below :
 <p align="center">
-  <img src="media/AndroMyographyFritzing.png.png" width="720px" height="325px"/>
+  <img src="media/andro_myography_fritzing.png" width="720px" height="325px"/>
 </p>
