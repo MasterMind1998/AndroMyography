@@ -6,7 +6,7 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Hardwares](#Hardwares)
+* [Hardwares](#hardwares)
 * [Technologies](#technologies)
 * [Project Guide](#project-guide)
 
@@ -29,7 +29,37 @@ Project is created with:
 * EventBus 3.3.1
 
 ## Project Guide
+Upload the following code to the Arduino :
+```
+#include <SoftwareSerial.h>
+SoftwareSerial bluetooth(2 , 3); // RX|TX
+
+int sensorPin = A0;
+int sensorData = 0;
+
+void setup() {
+  pinMode(sensorPin , INPUT);
+  Serial.begin(9600);
+  bluetooth.begin(9600);
+
+}
+
+void loop() {
+  
+  // read the value from analog inpute
+  sensorData = analogRead(sensorPin);
+  bluetooth.print(sensorData);
+  delay(1000);
+
+}
+```
 Assemble your circuit according to the diagram below :
 <p align="center">
-  <img src="media/andro_myography_fritzing.png" width="720px" height="325px"/>
+  <img src="media/andro_ayography_fritzing.png" width="720px" height="325px"/>
 </p>
+
+Then run the App and click Add New Patient.            
+After entering the patient details completely,click on the submit information          
+and then click on the desired Bluetooth from the list of known Bluetooth.         
+Click on the start botton when entering the analysis page.
+
