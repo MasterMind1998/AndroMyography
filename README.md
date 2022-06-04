@@ -20,6 +20,11 @@ And the sensor data is sent to the mobile phone via Bluetooth and its chart is p
 * Bluetooth Module HC-05
 * Breadboard
 * 9v Battry
+* Jumper Wire
+
+<p align="center">
+  <img src="media/hardware.png" width="720px" height="325px"/>
+</p>
 
 ## Technologies
 Project is created with:
