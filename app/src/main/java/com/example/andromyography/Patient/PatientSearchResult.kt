@@ -21,9 +21,6 @@ class PatientSearchResult : AppCompatActivity() {
         gender_result.text = intent.getStringExtra("PatientGender")
         damaged_muscle_result.text = intent.getStringExtra("PatientDamagedMuscle")
 
-        show_test_result.setOnClickListener {
-            Toast.makeText(this , "This item is not Available" , Toast.LENGTH_SHORT).show()
-        }
 
         back_to_main.setOnClickListener {
             super.onBackPressed()

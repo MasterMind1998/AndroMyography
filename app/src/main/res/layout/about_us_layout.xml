@@ -68,26 +68,20 @@
             android:layout_height="60dp"
             style="?android:attr/buttonBarButtonStyle" />
 
+
+
         <Button
-            android:id="@+id/gmail_account"
+            android:id="@+id/linkedin_account"
             android:layout_marginStart="10dp"
-            android:background="@drawable/gmail_icon"
+            android:background="@drawable/linkedin_icon"
             android:layout_width="60dp"
             android:layout_height="60dp"
             style="?android:attr/buttonBarButtonStyle" />
 
         <Button
-            android:id="@+id/instagram_account"
+            android:id="@+id/stackOverFlow_account"
             android:layout_marginStart="10dp"
-            android:background="@drawable/instagram_icon"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            style="?android:attr/buttonBarButtonStyle" />
-
-        <Button
-            android:id="@+id/telegram_account"
-            android:layout_marginStart="10dp"
-            android:background="@drawable/telegram_icon"
+            android:background="@drawable/stackoverflow_icon"
             android:layout_width="60dp"
             android:layout_height="60dp"
             style="?android:attr/buttonBarButtonStyle" />
