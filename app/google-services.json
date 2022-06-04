@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "417391156356",
+    "project_id": "andromyography",
+    "storage_bucket": "andromyography.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417391156356:android:cec80e44bfcad9415ef6d1",
+        "android_client_info": {
+          "package_name": "com.example.andromyography"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417391156356-a4qt4iih7amvrl8cnqo4qn7acphilffq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7EHnACvqujRILNAK0RIOw7m--tbdtV4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417391156356-a4qt4iih7amvrl8cnqo4qn7acphilffq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
