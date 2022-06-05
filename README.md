@@ -1,7 +1,7 @@
 # AndroMyography
 
 <p align="center">
-  <img src="media/andro_myography_logo.png" width="128px" height="128px"/>
+  <img src="media/andro_myography2_logo.jpg" width="150px" height="150px"/>
 </p>
 
 ## Table of contents
